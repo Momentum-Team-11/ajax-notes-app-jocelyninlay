@@ -4,9 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="main.js" defer></script>
   <title>Notes</title>
 </head>
 <body>
-  
+  <h1> Notes </h1>
+
+  <form method="GET" id="notes">
+   <p> Title: <input id="title" type="text" name="title"> </p>
+   <p> Note:<br><textarea id="body" name="note"></textarea></p>
+   <p><button type="submit">Add Note</button></p>
+</form>
+<ul id="listOfNotes"></ul>
+
+
 </body>
 </html>
