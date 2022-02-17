@@ -1,0 +1,12 @@
+body {
+    margin: 2em;
+    padding: 2em;   
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-bottom: 1px dashed lightgray;
+}
